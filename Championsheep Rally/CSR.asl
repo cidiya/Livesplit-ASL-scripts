@@ -1,4 +1,4 @@
-state("CSR", "My Version") 
+state("CSR", "Das Bild") 
 {
     string6 level       : 0x1B06BE;
     bool isLoading      : 0x001AA3F0, 0xB0C, 0x18;
@@ -13,11 +13,11 @@ init
     switch (modules.First().ModuleMemorySize)
     {
         case 2043904:
-        version = "My Version";
+        version = "Das Bild";
         break;
 
         case 2052096:
-        version = "GamersGate";
+        version = "GamersGate (Not yet supported)";
         break;
         
         default:
