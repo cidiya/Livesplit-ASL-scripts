@@ -27,6 +27,6 @@ split
         return true;
     }
 
-    if (current.cutscene == 1 && old.cutscene == 0)
+    if (current.cutscene == 1 && old.cutscene == 0 && current.mapNumber == 46)
     return true;   
 }
